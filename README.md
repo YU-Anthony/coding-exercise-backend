@@ -19,9 +19,9 @@ python getPointBalances.py -points 5000
 
 The input CSV file must contain the following columns:
 
-- payer (string)
-- points (integer)
-- timestamp (date)
+- payer
+- points
+- timestamp
 
 ## Output
 The output is a dictionary with the payer name as the key and the point balance as the value.
